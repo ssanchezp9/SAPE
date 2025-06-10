@@ -49,9 +49,6 @@ class ConversationInfo(BaseModel):
     created_at: str
     message_count: int
 
-# Variable global para el SwarmMaster principal
-global_swarm_master: Optional[SwarmMaster] = None
-
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
