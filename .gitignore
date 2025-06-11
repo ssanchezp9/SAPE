@@ -185,3 +185,9 @@ Desktop.ini
 memory/
 state/
 conversation_history/
+!src/utils/memory/
+!src/utils/memory/**
+!src/models/
+!src/models/**
+!src/utils/env/
+!src/utils/env/**
